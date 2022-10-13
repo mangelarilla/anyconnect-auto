@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "anyconnect-auto"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "inquire",
  "serde",

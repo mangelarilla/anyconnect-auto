@@ -27,6 +27,8 @@ fn install() -> Result<(), Box<dyn Error>> {
     println!("Application installed in {:?}", exe_path);
     installer::link_to_windows_startup()?;
     println!("Added to windows startup");
+    println!("Installation completed! Press any key to exit");
+    std::io::stdin().read_line(&mut String::new())?;
     Ok(())
 }
 
