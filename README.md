@@ -1,4 +1,5 @@
 # Auto-login for Cisco AnyConnect Windows client
+![](https://github.com/mangelarilla/anyconnect-auto/blob/main/anyconnect-auto-install.gif)
 I made this helper application to provide user/password auto-login to the AnyConnect Windows client on system startup.
 It asks a few initial questions during setup to retrieve the right configuration and adds itself to the Windows startup.
 ## DISCLAIMER
